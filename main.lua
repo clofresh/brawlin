@@ -14,10 +14,11 @@ sprite.add( alex_set, "standing", 1, 1, 300, 0 )
 sprite.add( alex_set, "walking", 2, 2, 300, 0 ) 
 sprite.add( alex_set, "punching", 4, 3, 200, 0 ) 
 
-local magus_sheet = sprite.newSpriteSheet("magus_hurt.png", 48, 64)
-local magus_set = sprite.newSpriteSet(magus_sheet, 1, 2)
+local magus_sheet = sprite.newSpriteSheet("magus.png", 64, 64)
+local magus_set = sprite.newSpriteSet(magus_sheet, 1, 8)
 sprite.add(magus_set, "standing", 1, 1, 300, 0)
 sprite.add(magus_set, "hurt", 2, 1, 500, 0)
+sprite.add(magus_set, "walking", 3, 6, 600, 0)
 
 
 local player = {

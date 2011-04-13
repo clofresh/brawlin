@@ -1,0 +1,1161 @@
+SpriteHelper - Created by Bogdan Vladu - Available on Mac App Store
+http://spritehelper.wordpress.com/
+###################################################################
+Image_path: /Users/carlo/Projects/brawlin/alex.png
+###################################################################
+############### Scene preferences #################################
+Grid_size: 32
+Background_color: 0.800000 0.800000 0.800000 
+Max_poly_vertices_allowed: 8
+###################################################################
+############### BOX_2D preferences ################################
+Max_Poly_Vertices: 8
+###################################################################
+############### Sprite's Info #####################################
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_acro_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 84
+Sprite_left: 200
+Sprite_bottom: 107
+Sprite_right: 224
+Sprite_uv_top_left: 0.571429 0.237288
+Sprite_uv_top_right: 0.640000 0.237288
+Sprite_uv_bottom_right: 0.640000 0.302260
+Sprite_uv_bottom_left: 0.571429 0.302260
+Sprite_width: 24
+Sprite_height: 23
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_acro_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 84
+Sprite_left: 240
+Sprite_bottom: 108
+Sprite_right: 263
+Sprite_uv_top_left: 0.685714 0.237288
+Sprite_uv_top_right: 0.751429 0.237288
+Sprite_uv_bottom_right: 0.751429 0.305085
+Sprite_uv_bottom_left: 0.685714 0.305085
+Sprite_width: 23
+Sprite_height: 24
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_acro_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 84
+Sprite_left: 280
+Sprite_bottom: 107
+Sprite_right: 304
+Sprite_uv_top_left: 0.800000 0.237288
+Sprite_uv_top_right: 0.868571 0.237288
+Sprite_uv_bottom_right: 0.868571 0.302260
+Sprite_uv_bottom_left: 0.800000 0.302260
+Sprite_width: 24
+Sprite_height: 23
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_acro_4
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 84
+Sprite_left: 320
+Sprite_bottom: 108
+Sprite_right: 343
+Sprite_uv_top_left: 0.914286 0.237288
+Sprite_uv_top_right: 0.980000 0.237288
+Sprite_uv_bottom_right: 0.980000 0.305085
+Sprite_uv_bottom_left: 0.914286 0.305085
+Sprite_width: 23
+Sprite_height: 24
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_blocking
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 0
+Sprite_left: 161
+Sprite_bottom: 32
+Sprite_right: 183
+Sprite_uv_top_left: 0.460000 0.000000
+Sprite_uv_top_right: 0.522857 0.000000
+Sprite_uv_bottom_right: 0.522857 0.090395
+Sprite_uv_bottom_left: 0.460000 0.090395
+Sprite_width: 22
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_carrying
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 119
+Sprite_left: 153
+Sprite_bottom: 152
+Sprite_right: 170
+Sprite_uv_top_left: 0.437143 0.336158
+Sprite_uv_top_right: 0.485714 0.336158
+Sprite_uv_bottom_right: 0.485714 0.429379
+Sprite_uv_bottom_left: 0.437143 0.429379
+Sprite_width: 17
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_carrying_walking_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 119
+Sprite_left: 184
+Sprite_bottom: 152
+Sprite_right: 200
+Sprite_uv_top_left: 0.525714 0.336158
+Sprite_uv_top_right: 0.571429 0.336158
+Sprite_uv_bottom_right: 0.571429 0.429379
+Sprite_uv_bottom_left: 0.525714 0.429379
+Sprite_width: 16
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_carrying_walking_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 119
+Sprite_left: 214
+Sprite_bottom: 152
+Sprite_right: 230
+Sprite_uv_top_left: 0.611429 0.336158
+Sprite_uv_top_right: 0.657143 0.336158
+Sprite_uv_bottom_right: 0.657143 0.429379
+Sprite_uv_bottom_left: 0.611429 0.429379
+Sprite_width: 16
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_crouch
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 4
+Sprite_left: 241
+Sprite_bottom: 28
+Sprite_right: 263
+Sprite_uv_top_left: 0.688571 0.011299
+Sprite_uv_top_right: 0.751429 0.011299
+Sprite_uv_bottom_right: 0.751429 0.079096
+Sprite_uv_bottom_left: 0.688571 0.079096
+Sprite_width: 22
+Sprite_height: 24
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_down
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 168
+Sprite_left: 276
+Sprite_bottom: 184
+Sprite_right: 308
+Sprite_uv_top_left: 0.788571 0.474576
+Sprite_uv_top_right: 0.880000 0.474576
+Sprite_uv_bottom_right: 0.880000 0.519774
+Sprite_uv_bottom_left: 0.788571 0.519774
+Sprite_width: 32
+Sprite_height: 16
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_eating_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 320
+Sprite_left: 240
+Sprite_bottom: 352
+Sprite_right: 263
+Sprite_uv_top_left: 0.685714 0.903955
+Sprite_uv_top_right: 0.751429 0.903955
+Sprite_uv_bottom_right: 0.751429 0.994350
+Sprite_uv_bottom_left: 0.685714 0.994350
+Sprite_width: 23
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_eating_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 318
+Sprite_left: 202
+Sprite_bottom: 354
+Sprite_right: 222
+Sprite_uv_top_left: 0.577143 0.898305
+Sprite_uv_top_right: 0.634286 0.898305
+Sprite_uv_bottom_right: 0.634286 1.000000
+Sprite_uv_bottom_left: 0.577143 1.000000
+Sprite_width: 20
+Sprite_height: 36
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_eating_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 318
+Sprite_left: 163
+Sprite_bottom: 354
+Sprite_right: 180
+Sprite_uv_top_left: 0.465714 0.898305
+Sprite_uv_top_right: 0.514286 0.898305
+Sprite_uv_bottom_right: 0.514286 1.000000
+Sprite_uv_bottom_left: 0.465714 1.000000
+Sprite_width: 17
+Sprite_height: 36
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_eating_4
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 319
+Sprite_left: 123
+Sprite_bottom: 352
+Sprite_right: 140
+Sprite_uv_top_left: 0.351429 0.901130
+Sprite_uv_top_right: 0.400000 0.901130
+Sprite_uv_bottom_right: 0.400000 0.994350
+Sprite_uv_bottom_left: 0.351429 0.994350
+Sprite_width: 17
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_eating_5
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 320
+Sprite_left: 83
+Sprite_bottom: 352
+Sprite_right: 100
+Sprite_uv_top_left: 0.237143 0.903955
+Sprite_uv_top_right: 0.285714 0.903955
+Sprite_uv_bottom_right: 0.285714 0.994350
+Sprite_uv_bottom_left: 0.237143 0.994350
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_eating_6
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 320
+Sprite_left: 43
+Sprite_bottom: 352
+Sprite_right: 60
+Sprite_uv_top_left: 0.122857 0.903955
+Sprite_uv_top_right: 0.171429 0.903955
+Sprite_uv_bottom_right: 0.171429 0.994350
+Sprite_uv_bottom_left: 0.122857 0.994350
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_eating_7
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 318
+Sprite_left: 3
+Sprite_bottom: 353
+Sprite_right: 20
+Sprite_uv_top_left: 0.008571 0.898305
+Sprite_uv_top_right: 0.057143 0.898305
+Sprite_uv_bottom_right: 0.057143 0.997175
+Sprite_uv_bottom_left: 0.008571 0.997175
+Sprite_width: 17
+Sprite_height: 35
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_high_kick
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 80
+Sprite_left: 117
+Sprite_bottom: 112
+Sprite_right: 146
+Sprite_uv_top_left: 0.334286 0.225989
+Sprite_uv_top_right: 0.417143 0.225989
+Sprite_uv_bottom_right: 0.417143 0.316384
+Sprite_uv_bottom_left: 0.334286 0.316384
+Sprite_width: 29
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_hit_behind_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 160
+Sprite_left: 2
+Sprite_bottom: 191
+Sprite_right: 21
+Sprite_uv_top_left: 0.005714 0.451977
+Sprite_uv_top_right: 0.060000 0.451977
+Sprite_uv_bottom_right: 0.060000 0.539548
+Sprite_uv_bottom_left: 0.005714 0.539548
+Sprite_width: 19
+Sprite_height: 31
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_hit_behind_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 161
+Sprite_left: 43
+Sprite_bottom: 191
+Sprite_right: 61
+Sprite_uv_top_left: 0.122857 0.454802
+Sprite_uv_top_right: 0.174286 0.454802
+Sprite_uv_bottom_right: 0.174286 0.539548
+Sprite_uv_bottom_left: 0.122857 0.539548
+Sprite_width: 18
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_hit_behind_falling
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 161
+Sprite_left: 159
+Sprite_bottom: 191
+Sprite_right: 185
+Sprite_uv_top_left: 0.454286 0.454802
+Sprite_uv_top_right: 0.528571 0.454802
+Sprite_uv_bottom_right: 0.528571 0.539548
+Sprite_uv_bottom_left: 0.454286 0.539548
+Sprite_width: 26
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_hit_down
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 167
+Sprite_left: 316
+Sprite_bottom: 184
+Sprite_right: 348
+Sprite_uv_top_left: 0.902857 0.471751
+Sprite_uv_top_right: 0.994286 0.471751
+Sprite_uv_bottom_right: 0.994286 0.519774
+Sprite_uv_bottom_left: 0.902857 0.519774
+Sprite_width: 32
+Sprite_height: 17
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_hit_front
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 160
+Sprite_left: 83
+Sprite_bottom: 192
+Sprite_right: 101
+Sprite_uv_top_left: 0.237143 0.451977
+Sprite_uv_top_right: 0.288571 0.451977
+Sprite_uv_bottom_right: 0.288571 0.542373
+Sprite_uv_bottom_left: 0.237143 0.542373
+Sprite_width: 18
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_hit_front_falling
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 160
+Sprite_left: 119
+Sprite_bottom: 192
+Sprite_right: 145
+Sprite_uv_top_left: 0.340000 0.451977
+Sprite_uv_top_right: 0.414286 0.451977
+Sprite_uv_bottom_right: 0.414286 0.542373
+Sprite_uv_bottom_left: 0.340000 0.542373
+Sprite_width: 26
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_jump_kick
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 81
+Sprite_left: 156
+Sprite_bottom: 111
+Sprite_right: 187
+Sprite_uv_top_left: 0.445714 0.228814
+Sprite_uv_top_right: 0.534286 0.228814
+Sprite_uv_bottom_right: 0.534286 0.313559
+Sprite_uv_bottom_left: 0.445714 0.313559
+Sprite_width: 31
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_jumping
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 1
+Sprite_left: 203
+Sprite_bottom: 30
+Sprite_right: 220
+Sprite_uv_top_left: 0.580000 0.002825
+Sprite_uv_top_right: 0.628571 0.002825
+Sprite_uv_bottom_right: 0.628571 0.084746
+Sprite_uv_bottom_left: 0.580000 0.084746
+Sprite_width: 17
+Sprite_height: 29
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_jumping_carrying
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 119
+Sprite_left: 334
+Sprite_bottom: 152
+Sprite_right: 350
+Sprite_uv_top_left: 0.954286 0.336158
+Sprite_uv_top_right: 1.000000 0.336158
+Sprite_uv_bottom_right: 1.000000 0.429379
+Sprite_uv_bottom_left: 0.954286 0.429379
+Sprite_width: 16
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_kicking_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 81
+Sprite_left: 4
+Sprite_bottom: 111
+Sprite_right: 20
+Sprite_uv_top_left: 0.011429 0.228814
+Sprite_uv_top_right: 0.057143 0.228814
+Sprite_uv_bottom_right: 0.057143 0.313559
+Sprite_uv_bottom_left: 0.011429 0.313559
+Sprite_width: 16
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_kicking_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 81
+Sprite_left: 40
+Sprite_bottom: 111
+Sprite_right: 63
+Sprite_uv_top_left: 0.114286 0.228814
+Sprite_uv_top_right: 0.180000 0.228814
+Sprite_uv_bottom_right: 0.180000 0.313559
+Sprite_uv_bottom_left: 0.114286 0.313559
+Sprite_width: 23
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_kicking_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 81
+Sprite_left: 80
+Sprite_bottom: 111
+Sprite_right: 104
+Sprite_uv_top_left: 0.228571 0.228814
+Sprite_uv_top_right: 0.297143 0.228814
+Sprite_uv_bottom_right: 0.297143 0.313559
+Sprite_uv_bottom_left: 0.228571 0.313559
+Sprite_width: 24
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_no_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 123
+Sprite_bottom: 232
+Sprite_right: 140
+Sprite_uv_top_left: 0.351429 0.564972
+Sprite_uv_top_right: 0.400000 0.564972
+Sprite_uv_bottom_right: 0.400000 0.655367
+Sprite_uv_bottom_left: 0.351429 0.655367
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_no_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 163
+Sprite_bottom: 232
+Sprite_right: 180
+Sprite_uv_top_left: 0.465714 0.564972
+Sprite_uv_top_right: 0.514286 0.564972
+Sprite_uv_bottom_right: 0.514286 0.655367
+Sprite_uv_bottom_left: 0.465714 0.655367
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_no_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 203
+Sprite_bottom: 232
+Sprite_right: 220
+Sprite_uv_top_left: 0.580000 0.564972
+Sprite_uv_top_right: 0.628571 0.564972
+Sprite_uv_bottom_right: 0.628571 0.655367
+Sprite_uv_bottom_left: 0.580000 0.655367
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_ordering_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 83
+Sprite_bottom: 232
+Sprite_right: 100
+Sprite_uv_top_left: 0.237143 0.564972
+Sprite_uv_top_right: 0.285714 0.564972
+Sprite_uv_bottom_right: 0.285714 0.655367
+Sprite_uv_bottom_left: 0.237143 0.655367
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_ordering_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 0
+Sprite_bottom: 232
+Sprite_right: 23
+Sprite_uv_top_left: 0.000000 0.564972
+Sprite_uv_top_right: 0.065714 0.564972
+Sprite_uv_bottom_right: 0.065714 0.655367
+Sprite_uv_bottom_left: 0.000000 0.655367
+Sprite_width: 23
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_ordering_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 40
+Sprite_bottom: 232
+Sprite_right: 63
+Sprite_uv_top_left: 0.114286 0.564972
+Sprite_uv_top_right: 0.180000 0.564972
+Sprite_uv_bottom_right: 0.180000 0.655367
+Sprite_uv_bottom_left: 0.114286 0.655367
+Sprite_width: 23
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_punching_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 1
+Sprite_bottom: 72
+Sprite_right: 22
+Sprite_uv_top_left: 0.002857 0.112994
+Sprite_uv_top_right: 0.062857 0.112994
+Sprite_uv_bottom_right: 0.062857 0.203390
+Sprite_uv_bottom_left: 0.002857 0.203390
+Sprite_width: 21
+Sprite_height: 32
+Vertex: -5.650929 -0.718258 
+Vertex: -4.055727 -15.606804 
+Vertex: 10.123835 -15.606804 
+Vertex: 10.832817 15.056507 
+Vertex: -1.574305 14.879261 
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_punching_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 43
+Sprite_bottom: 72
+Sprite_right: 61
+Sprite_uv_top_left: 0.122857 0.112994
+Sprite_uv_top_right: 0.174286 0.112994
+Sprite_uv_bottom_right: 0.174286 0.203390
+Sprite_uv_bottom_left: 0.122857 0.203390
+Sprite_width: 18
+Sprite_height: 32
+Vertex: -6.625389 1.054180 
+Vertex: -5.916420 -15.252312 
+Vertex: 7.908665 -14.720581 
+Vertex: 8.794888 15.233749 
+Vertex: -3.080498 15.410995 
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_punching_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 80
+Sprite_bottom: 72
+Sprite_right: 104
+Sprite_uv_top_left: 0.228571 0.112994
+Sprite_uv_top_right: 0.297143 0.112994
+Sprite_uv_bottom_right: 0.297143 0.203390
+Sprite_uv_bottom_left: 0.228571 0.203390
+Sprite_width: 24
+Sprite_height: 32
+Vertex: -5.859138 14.879261 
+Vertex: 4.598289 15.056507 
+Vertex: 4.598289 7.789478 
+Vertex: 12.042557 3.358364 
+Vertex: 4.243797 -0.895508 
+Vertex: 3.534821 -14.188850 
+Vertex: -10.644745 -14.188850 
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_running
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 0
+Sprite_left: 121
+Sprite_bottom: 32
+Sprite_right: 143
+Sprite_uv_top_left: 0.345714 0.000000
+Sprite_uv_top_right: 0.408571 0.000000
+Sprite_uv_bottom_right: 0.408571 0.090395
+Sprite_uv_bottom_left: 0.345714 0.090395
+Sprite_width: 22
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_running_carrying
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 119
+Sprite_left: 241
+Sprite_bottom: 152
+Sprite_right: 263
+Sprite_uv_top_left: 0.688571 0.336158
+Sprite_uv_top_right: 0.751429 0.336158
+Sprite_uv_bottom_right: 0.751429 0.429379
+Sprite_uv_bottom_left: 0.688571 0.429379
+Sprite_width: 22
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_running_punching_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 119
+Sprite_bottom: 72
+Sprite_right: 145
+Sprite_uv_top_left: 0.340000 0.112994
+Sprite_uv_top_right: 0.414286 0.112994
+Sprite_uv_bottom_right: 0.414286 0.203390
+Sprite_uv_bottom_left: 0.340000 0.203390
+Sprite_width: 26
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_running_punching_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 163
+Sprite_bottom: 72
+Sprite_right: 181
+Sprite_uv_top_left: 0.465714 0.112994
+Sprite_uv_top_right: 0.517143 0.112994
+Sprite_uv_bottom_right: 0.517143 0.203390
+Sprite_uv_bottom_left: 0.465714 0.203390
+Sprite_width: 18
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_running_punching_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 198
+Sprite_bottom: 72
+Sprite_right: 225
+Sprite_uv_top_left: 0.565714 0.112994
+Sprite_uv_top_right: 0.642857 0.112994
+Sprite_uv_bottom_right: 0.642857 0.203390
+Sprite_uv_bottom_left: 0.565714 0.203390
+Sprite_width: 27
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_running_throw
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 121
+Sprite_left: 119
+Sprite_bottom: 151
+Sprite_right: 145
+Sprite_uv_top_left: 0.340000 0.341808
+Sprite_uv_top_right: 0.414286 0.341808
+Sprite_uv_bottom_right: 0.414286 0.426554
+Sprite_uv_bottom_left: 0.340000 0.426554
+Sprite_width: 26
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_eating_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 281
+Sprite_left: 240
+Sprite_bottom: 311
+Sprite_right: 264
+Sprite_uv_top_left: 0.685714 0.793785
+Sprite_uv_top_right: 0.754286 0.793785
+Sprite_uv_bottom_right: 0.754286 0.878531
+Sprite_uv_bottom_left: 0.685714 0.878531
+Sprite_width: 24
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_eating_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 279
+Sprite_left: 202
+Sprite_bottom: 313
+Sprite_right: 221
+Sprite_uv_top_left: 0.577143 0.788136
+Sprite_uv_top_right: 0.631429 0.788136
+Sprite_uv_bottom_right: 0.631429 0.884181
+Sprite_uv_bottom_left: 0.577143 0.884181
+Sprite_width: 19
+Sprite_height: 34
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_eating_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 279
+Sprite_left: 164
+Sprite_bottom: 313
+Sprite_right: 180
+Sprite_uv_top_left: 0.468571 0.788136
+Sprite_uv_top_right: 0.514286 0.788136
+Sprite_uv_bottom_right: 0.514286 0.884181
+Sprite_uv_bottom_left: 0.468571 0.884181
+Sprite_width: 16
+Sprite_height: 34
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_eating_4
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 280
+Sprite_left: 124
+Sprite_bottom: 311
+Sprite_right: 140
+Sprite_uv_top_left: 0.354286 0.790960
+Sprite_uv_top_right: 0.400000 0.790960
+Sprite_uv_bottom_right: 0.400000 0.878531
+Sprite_uv_bottom_left: 0.354286 0.878531
+Sprite_width: 16
+Sprite_height: 31
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_eating_5
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 281
+Sprite_left: 84
+Sprite_bottom: 311
+Sprite_right: 100
+Sprite_uv_top_left: 0.240000 0.793785
+Sprite_uv_top_right: 0.285714 0.793785
+Sprite_uv_bottom_right: 0.285714 0.878531
+Sprite_uv_bottom_left: 0.240000 0.878531
+Sprite_width: 16
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_eating_6
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 281
+Sprite_left: 44
+Sprite_bottom: 311
+Sprite_right: 60
+Sprite_uv_top_left: 0.125714 0.793785
+Sprite_uv_top_right: 0.171429 0.793785
+Sprite_uv_bottom_right: 0.171429 0.878531
+Sprite_uv_bottom_left: 0.125714 0.878531
+Sprite_width: 16
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_eating_7
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 279
+Sprite_left: 4
+Sprite_bottom: 312
+Sprite_right: 20
+Sprite_uv_top_left: 0.011429 0.788136
+Sprite_uv_top_right: 0.057143 0.788136
+Sprite_uv_bottom_right: 0.057143 0.881356
+Sprite_uv_bottom_left: 0.011429 0.881356
+Sprite_width: 16
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_no_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 124
+Sprite_bottom: 271
+Sprite_right: 140
+Sprite_uv_top_left: 0.354286 0.680791
+Sprite_uv_top_right: 0.400000 0.680791
+Sprite_uv_bottom_right: 0.400000 0.765537
+Sprite_uv_bottom_left: 0.354286 0.765537
+Sprite_width: 16
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_no_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 164
+Sprite_bottom: 271
+Sprite_right: 180
+Sprite_uv_top_left: 0.468571 0.680791
+Sprite_uv_top_right: 0.514286 0.680791
+Sprite_uv_bottom_right: 0.514286 0.765537
+Sprite_uv_bottom_left: 0.468571 0.765537
+Sprite_width: 16
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_no_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 204
+Sprite_bottom: 271
+Sprite_right: 220
+Sprite_uv_top_left: 0.582857 0.680791
+Sprite_uv_top_right: 0.628571 0.680791
+Sprite_uv_bottom_right: 0.628571 0.765537
+Sprite_uv_bottom_left: 0.582857 0.765537
+Sprite_width: 16
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_ordering_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 84
+Sprite_bottom: 271
+Sprite_right: 100
+Sprite_uv_top_left: 0.240000 0.680791
+Sprite_uv_top_right: 0.285714 0.680791
+Sprite_uv_bottom_right: 0.285714 0.765537
+Sprite_uv_bottom_left: 0.240000 0.765537
+Sprite_width: 16
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_ordering_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 1
+Sprite_bottom: 271
+Sprite_right: 23
+Sprite_uv_top_left: 0.002857 0.680791
+Sprite_uv_top_right: 0.065714 0.680791
+Sprite_uv_bottom_right: 0.065714 0.765537
+Sprite_uv_bottom_left: 0.002857 0.765537
+Sprite_width: 22
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_ordering_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 41
+Sprite_bottom: 271
+Sprite_right: 63
+Sprite_uv_top_left: 0.117143 0.680791
+Sprite_uv_top_right: 0.180000 0.680791
+Sprite_uv_bottom_right: 0.180000 0.765537
+Sprite_uv_bottom_left: 0.117143 0.765537
+Sprite_width: 22
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_yes_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 242
+Sprite_bottom: 270
+Sprite_right: 261
+Sprite_uv_top_left: 0.691429 0.680791
+Sprite_uv_top_right: 0.745714 0.680791
+Sprite_uv_bottom_right: 0.745714 0.762712
+Sprite_uv_bottom_left: 0.691429 0.762712
+Sprite_width: 19
+Sprite_height: 29
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_sitting_yes_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 241
+Sprite_left: 283
+Sprite_bottom: 270
+Sprite_right: 301
+Sprite_uv_top_left: 0.808571 0.680791
+Sprite_uv_top_right: 0.860000 0.680791
+Sprite_uv_bottom_right: 0.860000 0.762712
+Sprite_uv_bottom_left: 0.808571 0.762712
+Sprite_width: 18
+Sprite_height: 29
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_standing
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 0
+Sprite_left: 3
+Sprite_bottom: 32
+Sprite_right: 20
+Sprite_uv_top_left: 0.008571 0.000000
+Sprite_uv_top_right: 0.057143 0.000000
+Sprite_uv_bottom_right: 0.057143 0.090395
+Sprite_uv_bottom_left: 0.008571 0.090395
+Sprite_width: 17
+Sprite_height: 32
+Vertex: -6.875000 4.875000 
+Vertex: -7.250000 -15.625000 
+Vertex: 6.875000 -15.749998 
+Vertex: 8.625000 15.500000 
+Vertex: -4.375000 15.625000 
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_throwing_carrying_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 119
+Sprite_left: 273
+Sprite_bottom: 152
+Sprite_right: 290
+Sprite_uv_top_left: 0.780000 0.336158
+Sprite_uv_top_right: 0.828571 0.336158
+Sprite_uv_bottom_right: 0.828571 0.429379
+Sprite_uv_bottom_left: 0.780000 0.429379
+Sprite_width: 17
+Sprite_height: 33
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_throwing_carrying_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 121
+Sprite_left: 300
+Sprite_bottom: 151
+Sprite_right: 323
+Sprite_uv_top_left: 0.857143 0.341808
+Sprite_uv_top_right: 0.922857 0.341808
+Sprite_uv_bottom_right: 0.922857 0.426554
+Sprite_uv_bottom_left: 0.857143 0.426554
+Sprite_width: 23
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_tired_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 161
+Sprite_left: 203
+Sprite_bottom: 191
+Sprite_right: 221
+Sprite_uv_top_left: 0.580000 0.454802
+Sprite_uv_top_right: 0.631429 0.454802
+Sprite_uv_bottom_right: 0.631429 0.539548
+Sprite_uv_bottom_left: 0.580000 0.539548
+Sprite_width: 18
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_tired_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 161
+Sprite_left: 242
+Sprite_bottom: 190
+Sprite_right: 261
+Sprite_uv_top_left: 0.691429 0.454802
+Sprite_uv_top_right: 0.745714 0.454802
+Sprite_uv_bottom_right: 0.745714 0.536723
+Sprite_uv_bottom_left: 0.691429 0.536723
+Sprite_width: 19
+Sprite_height: 29
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_uppercut_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 41
+Sprite_left: 242
+Sprite_bottom: 71
+Sprite_right: 261
+Sprite_uv_top_left: 0.691429 0.115819
+Sprite_uv_top_right: 0.745714 0.115819
+Sprite_uv_bottom_right: 0.745714 0.200565
+Sprite_uv_bottom_left: 0.691429 0.200565
+Sprite_width: 19
+Sprite_height: 30
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_uppercut_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 279
+Sprite_bottom: 71
+Sprite_right: 304
+Sprite_uv_top_left: 0.797143 0.112994
+Sprite_uv_top_right: 0.868571 0.112994
+Sprite_uv_bottom_right: 0.868571 0.200565
+Sprite_uv_bottom_left: 0.797143 0.200565
+Sprite_width: 25
+Sprite_height: 31
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_uppercut_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 40
+Sprite_left: 319
+Sprite_bottom: 72
+Sprite_right: 344
+Sprite_uv_top_left: 0.911429 0.112994
+Sprite_uv_top_right: 0.982857 0.112994
+Sprite_uv_bottom_right: 0.982857 0.203390
+Sprite_uv_bottom_left: 0.911429 0.203390
+Sprite_width: 25
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_walking_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 0
+Sprite_left: 43
+Sprite_bottom: 32
+Sprite_right: 60
+Sprite_uv_top_left: 0.122857 0.000000
+Sprite_uv_top_right: 0.171429 0.000000
+Sprite_uv_bottom_right: 0.171429 0.090395
+Sprite_uv_bottom_left: 0.122857 0.090395
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_walking_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 0
+Sprite_left: 83
+Sprite_bottom: 32
+Sprite_right: 100
+Sprite_uv_top_left: 0.237143 0.000000
+Sprite_uv_top_right: 0.285714 0.000000
+Sprite_uv_bottom_right: 0.285714 0.090395
+Sprite_uv_bottom_left: 0.237143 0.090395
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_weapon_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 120
+Sprite_left: 2
+Sprite_bottom: 152
+Sprite_right: 21
+Sprite_uv_top_left: 0.005714 0.338983
+Sprite_uv_top_right: 0.060000 0.338983
+Sprite_uv_bottom_right: 0.060000 0.429379
+Sprite_uv_bottom_left: 0.005714 0.429379
+Sprite_width: 19
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_weapon_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 120
+Sprite_left: 43
+Sprite_bottom: 152
+Sprite_right: 61
+Sprite_uv_top_left: 0.122857 0.338983
+Sprite_uv_top_right: 0.174286 0.338983
+Sprite_uv_bottom_right: 0.174286 0.429379
+Sprite_uv_bottom_left: 0.122857 0.429379
+Sprite_width: 18
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_weapon_3
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 120
+Sprite_left: 80
+Sprite_bottom: 152
+Sprite_right: 104
+Sprite_uv_top_left: 0.228571 0.338983
+Sprite_uv_top_right: 0.297143 0.338983
+Sprite_uv_bottom_right: 0.297143 0.429379
+Sprite_uv_bottom_left: 0.228571 0.429379
+Sprite_width: 24
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_yes_1
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 243
+Sprite_bottom: 232
+Sprite_right: 260
+Sprite_uv_top_left: 0.694286 0.564972
+Sprite_uv_top_right: 0.742857 0.564972
+Sprite_uv_bottom_right: 0.742857 0.655367
+Sprite_uv_bottom_left: 0.694286 0.655367
+Sprite_width: 17
+Sprite_height: 32
+SPRITE_INFO_END
+
+SPRITE_INFO_BEGIN
+Sprite_name: alex_yes_2
+Sprite_image: /Users/carlo/Projects/brawlin/alex.png
+Sprite_top: 200
+Sprite_left: 283
+Sprite_bottom: 231
+Sprite_right: 301
+Sprite_uv_top_left: 0.808571 0.564972
+Sprite_uv_top_right: 0.860000 0.564972
+Sprite_uv_bottom_right: 0.860000 0.652542
+Sprite_uv_bottom_left: 0.808571 0.652542
+Sprite_width: 18
+Sprite_height: 31
+SPRITE_INFO_END

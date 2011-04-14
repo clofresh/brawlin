@@ -1,6 +1,18 @@
 print "starting"
 require "sprite"
+require "physics"
+
+physics.start()
+physics.setGravity(0, 0)
 display.setStatusBar( display.HiddenStatusBar )
+
+function distance(a, b)
+  return math.sqrt((b.x - a.x)^2 + (b.y - a.y)^2)
+end
+
+function duration(a, b, velocity)
+  return distance(a, b) / velocity
+end
 
 local w, h = display.contentWidth, display.contentHeight
 
@@ -20,12 +32,18 @@ sprite.add(magus_set, "standing", 1, 1, 300, 0)
 sprite.add(magus_set, "hurt", 2, 1, 500, 0)
 sprite.add(magus_set, "walking", 3, 6, 600, 0)
 
+local zombie_sheet = sprite.newSpriteSheet("zombie.png", 30, 50)
+local zombie_set = sprite.newSpriteSet(zombie_sheet, 1, 4)
+sprite.add(zombie_set, "walking", 1, 4, 800, 0)
 
 local player = {
   name = "player",
   velocity = .15,
   attacking = false,
   sprite = sprite.newSprite( alex_set ),
+  duration = function(self, target)
+    return duration(self.sprite, target, self.velocity)
+  end,
   idle = function(self)
     self.sprite:prepare("standing")
   end,
@@ -68,7 +86,7 @@ local player = {
         self.sprite:play()
       end
       transition.to(self.sprite, {
-        time=distance(self.sprite, event) / self.velocity,
+        time=self:duration(event),
         x=dest.x,
         y=dest.y,
         onComplete=function(sprite)
@@ -93,6 +111,12 @@ player.sprite.xScale = 1
 player.sprite.yScale = 1
 player.sprite:prepare("standing")
 player.sprite:play()
+physics.addBody(player.sprite, {
+  density = 1.0, 
+  friction = 0.3,
+  bounce = 0.2,
+})
+player.sprite.isFixedRotation = true
 
 local magus = {
   name = "Magus",
@@ -120,10 +144,55 @@ magus.sprite.yScale = .75
 magus.sprite:prepare("standing")
 magus.sprite:play()
 
-function distance(a, b)
-  return math.sqrt((b.x - a.x)^2 + (b.y - a.y)^2)
-end
+local zombie = {
+  name = "zombie",
+  sprite = sprite.newSprite(zombie_set),
+  velocity = .05,
+  duration = function(self, target)
+    return duration(self.sprite, target, self.velocity)
+  end,
+  pace = function(self)
+    local function pace(sprite)
+      local target = {
+        x = 100,
+        y = 200
+      }
+      sprite.xScale = -1
+      transition.to(sprite, {
+        time=self:duration(target),
+        x=target.x,
+        y=target.y,
+        onComplete=function(sprite)
+          local target = {
+            x = 300,
+            y = 200
+          }
+          sprite.xScale = 1
+          transition.to(sprite, {
+            time=self:duration(target),
+            x=target.x,
+            y=target.y,
+            onComplete=pace
+          })
+        end
+      })
+    end
+    pace(self.sprite)
+  end
+}
 
+zombie.sprite.x = 300
+zombie.sprite.y = 200
+zombie.sprite.xScale = -1
+zombie.sprite.yScale = 1
+zombie.sprite:prepare("walking")
+zombie.sprite:play()
+physics.addBody(zombie.sprite, {
+  density = 10.0, 
+  friction = 0.3,
+  bounce = 10.0,
+})
+zombie.sprite.isFixedRotation = true
 
 magus.sprite:addEventListener("tap", function(event)
   player:attack(event, magus)
@@ -132,4 +201,6 @@ end)
 background:addEventListener("tap", function(event) 
   player:move(event)
 end)
+
+zombie:pace()
 
